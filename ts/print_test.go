@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sugarme/gotch"
-	"github.com/sugarme/gotch/ts"
+	"github.com/theomarzaki/gotch"
+	"github.com/theomarzaki/gotch/ts"
 )
 
 func TestTensor_Format(t *testing.T) {

@@ -1,7 +1,7 @@
 package aug
 
 import (
-	"github.com/sugarme/gotch/ts"
+	"github.com/theomarzaki/gotch/ts"
 )
 
 type RandomInvert struct {

@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sugarme/gotch"
-	"github.com/sugarme/gotch/ts"
-	"github.com/sugarme/gotch/vision"
+	"github.com/theomarzaki/gotch"
+	"github.com/theomarzaki/gotch/ts"
+	"github.com/theomarzaki/gotch/vision"
 )
 
 var (

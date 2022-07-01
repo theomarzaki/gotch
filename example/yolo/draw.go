@@ -15,8 +15,8 @@ import (
 	"golang.org/x/image/draw"
 	"golang.org/x/image/font"
 
-	"github.com/sugarme/gotch/example/yolo/freetype"
-	"github.com/sugarme/gotch/ts"
+	"github.com/theomarzaki/gotch/example/yolo/freetype"
+	"github.com/theomarzaki/gotch/ts"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sugarme/gotch"
-	"github.com/sugarme/gotch/ts"
+	"github.com/theomarzaki/gotch"
+	"github.com/theomarzaki/gotch/ts"
 )
 
 // SEP is a separator to separate path elements in the tensor names.

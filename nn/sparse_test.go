@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sugarme/gotch"
-	"github.com/sugarme/gotch/nn"
-	"github.com/sugarme/gotch/ts"
+	"github.com/theomarzaki/gotch"
+	"github.com/theomarzaki/gotch/nn"
+	"github.com/theomarzaki/gotch/ts"
 )
 
 func embeddingTest(embeddingConfig *nn.EmbeddingConfig, t *testing.T) {

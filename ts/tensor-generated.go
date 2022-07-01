@@ -8,8 +8,8 @@ import "C"
 import(
   "unsafe"
 
-  "github.com/sugarme/gotch"
-  lib "github.com/sugarme/gotch/libtch"
+  "github.com/theomarzaki/gotch"
+  lib "github.com/theomarzaki/gotch/libtch"
 )
 
 
