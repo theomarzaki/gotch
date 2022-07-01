@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/nn"
-	"github.com/theomarzaki/gotch/ts"
-	"github.com/theomarzaki/gotch/vision"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/nn"
+	"github.com/sugarme/gotch/ts"
+	"github.com/sugarme/gotch/vision"
 )
 
 var (

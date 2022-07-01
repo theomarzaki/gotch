@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // Conv1DConfig:

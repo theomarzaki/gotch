@@ -6,7 +6,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/theomarzaki/gotch"
+	"github.com/sugarme/gotch"
 )
 
 // This file implements Pytorch storage data types.

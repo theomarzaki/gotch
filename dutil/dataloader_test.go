@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/theomarzaki/gotch/dutil"
+	"github.com/sugarme/gotch/dutil"
 )
 
 func TestNewDataLoader(t *testing.T) {

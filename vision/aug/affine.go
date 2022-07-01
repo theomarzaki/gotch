@@ -1,8 +1,8 @@
 package aug
 
 import (
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 // RandomAffine is transformation of the image keeping center invariant.

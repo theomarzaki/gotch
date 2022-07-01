@@ -3,8 +3,8 @@ package pickle_test
 import (
 	"log"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/pickle"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/pickle"
 )
 
 func ExampleLoadInfo() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/theomarzaki/gotch"
+	"github.com/sugarme/gotch"
 )
 
 type Iterator interface {

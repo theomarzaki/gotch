@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/theomarzaki/gotch/dutil"
+	"github.com/sugarme/gotch/dutil"
 )
 
 func TestNewSliceDataset(t *testing.T) {

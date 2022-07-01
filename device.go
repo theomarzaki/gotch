@@ -3,7 +3,7 @@ package gotch
 import (
 	"log"
 
-	lib "github.com/theomarzaki/gotch/libtch"
+	lib "github.com/sugarme/gotch/libtch"
 )
 
 type Device struct {

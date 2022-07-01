@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 func TestTextData_NewTextData(t *testing.T) {

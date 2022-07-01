@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/theomarzaki/gotch"
+	"github.com/sugarme/gotch"
 )
 
 const (

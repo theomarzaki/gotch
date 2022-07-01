@@ -1,7 +1,7 @@
 package aug
 
 import (
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // RandomPosterize posterizes the image randomly with a given probability by reducing the

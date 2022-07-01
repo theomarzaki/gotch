@@ -2,7 +2,7 @@ package nn
 
 // A layer-normalization layer.
 import (
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // Layer-normalization config.

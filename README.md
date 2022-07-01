@@ -1,4 +1,4 @@
-# Gotch [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/theomarzaki/gotch?tab=doc)[![Travis CI](https://api.travis-ci.org/theomarzaki/gotch.svg?branch=master)](https://travis-ci.org/theomarzaki/gotch)[![Go Report Card](https://goreportcard.com/badge/github.com/theomarzaki/gotch)](https://goreportcard.com/report/github.com/theomarzaki/gotch) 
+# Gotch [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/sugarme/gotch?tab=doc)[![Travis CI](https://api.travis-ci.org/sugarme/gotch.svg?branch=master)](https://travis-ci.org/sugarme/gotch)[![Go Report Card](https://goreportcard.com/badge/github.com/sugarme/gotch)](https://goreportcard.com/report/github.com/sugarme/gotch) 
 
 
 ## Overview
@@ -12,7 +12,7 @@
 - [x] Load pretrained Pytorch models and run inference
 - [x] Pure Go APIs to build and train neural network models with both CPU and GPU support
 - [x] Most recent image models
-- [ ] NLP Language models - [Transformer](https://github.com/theomarzaki/transformer) in separate package built with **gotch** and [pure Go Tokenizer](https://github.com/theomarzaki/tokenizer).
+- [ ] NLP Language models - [Transformer](https://github.com/sugarme/transformer) in separate package built with **gotch** and [pure Go Tokenizer](https://github.com/sugarme/tokenizer).
 
 `gotch` is in active development mode and may have API breaking changes. Feel free to pull request, report issues or discuss any concerns. All contributions are welcome. 
 
@@ -34,7 +34,7 @@
 #### Step 1: Setup libtorch (skip this step if a valid libtorch already installed in your machine!)
 
 ```bash
-    wget https://raw.githubusercontent.com/theomarzaki/gotch/master/setup-libtorch.sh
+    wget https://raw.githubusercontent.com/sugarme/gotch/master/setup-libtorch.sh
     chmod +x setup-libtorch.sh
     export CUDA_VER=cpu && bash setup-libtorch.sh
 ```
@@ -51,7 +51,7 @@
 #### Step 2: Setup gotch
 
 ```bash
-    wget https://raw.githubusercontent.com/theomarzaki/gotch/master/setup-gotch.sh
+    wget https://raw.githubusercontent.com/sugarme/gotch/master/setup-gotch.sh
     chmod +x setup-gotch.sh
     export CUDA_VER=cpu && export GOTCH_VER=v0.7.0 && bash setup-gotch.sh
 ```
@@ -72,7 +72,7 @@
 - Download and install [nightly libtorch 1.11 for CUDA 11.1](https://download.pytorch.org/libtorch/nightly/cu113/libtorch-cxx11-abi-shared-with-deps-latest.zip) will help `gotch` compiled successfully.
 
 ```bash
-    wget https://raw.githubusercontent.com/theomarzaki/gotch/master/setup-libtorch.sh
+    wget https://raw.githubusercontent.com/sugarme/gotch/master/setup-libtorch.sh
     chmod +x setup-libtorch.sh
 
     # CUDA 10.2
@@ -93,7 +93,7 @@
 #### Step 2: Setup gotch
 
 ```bash
-    wget https://raw.githubusercontent.com/theomarzaki/gotch/master/setup-gotch.sh
+    wget https://raw.githubusercontent.com/sugarme/gotch/master/setup-gotch.sh
     chmod +x setup-gotch.sh
     # CUDA 10.2
     export CUDA_VER=10.2 && export GOTCH_VER=v0.7.0 && bash setup-gotch.sh
@@ -109,8 +109,8 @@
 import (
 	"fmt"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 func basicOps() {
@@ -203,9 +203,9 @@ After (ts3 + 2.0):
 import (
     "fmt"
 
-    "github.com/theomarzaki/gotch"
-    "github.com/theomarzaki/gotch/nn"
-    "github.com/theomarzaki/gotch/ts"
+    "github.com/sugarme/gotch"
+    "github.com/sugarme/gotch/nn"
+    "github.com/sugarme/gotch/ts"
 )
 
 type Net struct {
@@ -258,10 +258,10 @@ func main() {
 
 ## Play with `gotch` on Google Colab or locally
 
-- [Tensor Initiation](example/basic) <a href="https://colab.research.google.com/github/theomarzaki/nb/blob/master/tensor/tensor-initiation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [Tensor Indexing](example/basic) <a href="https://colab.research.google.com/github/theomarzaki/nb/blob/master/tensor/tensor-indexing.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [MNIST](example/mnist) <a href="https://colab.research.google.com/github/theomarzaki/nb/blob/master/mnist/mnist.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [YOLO v3 model infering](example/yolo) <a href="https://colab.research.google.com/github/theomarzaki/nb/blob/master/yolo/yolo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [Tensor Initiation](example/basic) <a href="https://colab.research.google.com/github/sugarme/nb/blob/master/tensor/tensor-initiation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [Tensor Indexing](example/basic) <a href="https://colab.research.google.com/github/sugarme/nb/blob/master/tensor/tensor-indexing.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [MNIST](example/mnist) <a href="https://colab.research.google.com/github/sugarme/nb/blob/master/mnist/mnist.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [YOLO v3 model infering](example/yolo) <a href="https://colab.research.google.com/github/sugarme/nb/blob/master/yolo/yolo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [RNN model training](example/char-rnn)
 - [CIFAR model training](example/cifar)
 - [JIT ResNet18 Torch Script model load and inference](example/jit)
@@ -274,7 +274,7 @@ func main() {
 
 ## Getting Started
 
-- See [pkg.go.dev](https://pkg.go.dev/github.com/theomarzaki/gotch?tab=doc) for APIs detail.
+- See [pkg.go.dev](https://pkg.go.dev/github.com/sugarme/gotch?tab=doc) for APIs detail.
 
 ## License
 

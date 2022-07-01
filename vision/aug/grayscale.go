@@ -3,7 +3,7 @@ package aug
 import (
 	"log"
 
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // GrayScale converts image to grayscale.

@@ -3,7 +3,7 @@ package ts
 import (
 	"log"
 
-	lib "github.com/theomarzaki/gotch/libtch"
+	lib "github.com/sugarme/gotch/libtch"
 )
 
 type COptimizer struct {

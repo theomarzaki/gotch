@@ -8,8 +8,8 @@ import (
 	"log"
 	"math"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 // (height, width, channel) -> (channel, height, width)

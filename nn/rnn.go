@@ -3,8 +3,8 @@ package nn
 import (
 	"fmt"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 type State interface{}

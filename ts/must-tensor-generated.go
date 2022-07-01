@@ -5,7 +5,7 @@ package ts
 import(
   "log"
 
-  "github.com/theomarzaki/gotch"
+  "github.com/sugarme/gotch"
 )
 
 

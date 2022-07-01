@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/ts"
 )
 
 // RandomRotate randomly rotates a tensor image within a specifed angle range (degree).

@@ -1,7 +1,7 @@
 package aug
 
 import (
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // RandomAutocontrast autocontrasts the pixels of the given image randomly with a given probability.

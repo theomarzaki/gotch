@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/theomarzaki/gotch/dutil"
+	"github.com/sugarme/gotch/dutil"
 )
 
 func TestSequentialSampler(t *testing.T) {

@@ -5,7 +5,7 @@ package nn
 import (
 	"log"
 
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // Batch-normalization config.

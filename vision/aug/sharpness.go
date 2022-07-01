@@ -1,7 +1,7 @@
 package aug
 
 import (
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch/ts"
 )
 
 // Adjust the sharpness of the image randomly with a given probability. If the image is torch Tensor,

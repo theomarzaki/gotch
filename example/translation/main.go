@@ -17,9 +17,9 @@ import (
 	"log"
 	"math/rand"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/nn"
-	"github.com/theomarzaki/gotch/ts"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/nn"
+	"github.com/sugarme/gotch/ts"
 )
 
 var (

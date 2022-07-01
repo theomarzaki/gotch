@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/theomarzaki/gotch"
-	"github.com/theomarzaki/gotch/vision"
-	"github.com/theomarzaki/gotch/vision/aug"
+	"github.com/sugarme/gotch"
+	"github.com/sugarme/gotch/vision"
+	"github.com/sugarme/gotch/vision/aug"
 )
 
 func main() {
