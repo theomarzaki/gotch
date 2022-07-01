@@ -1,8 +1,5 @@
-module github.com/theomarzaki/gotch
+module gotch
 
-go 1.14
+go 1.18
 
-require (
-	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
-	golang.org/x/image v0.0.0-20200927104501-e162460cd6b5
-)
+replace github.com/sugarme/gotch v0.7.0 ==> /home/vagrant/go/src/github.com/theomarzaki/gotch
